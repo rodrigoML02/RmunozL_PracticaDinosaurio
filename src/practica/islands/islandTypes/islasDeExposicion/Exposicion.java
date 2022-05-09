@@ -4,9 +4,7 @@
  */
 package practica.islands.islandTypes.islasDeExposicion;
 
-import practica.Utilidades;
 import practica.enums.NivelAdquisitivo;
-import practica.instalaciones.instalacionesDeExhibicion.InstalacionesDeExposicion;
 import practica.islands.Island;
 
 /**
@@ -20,15 +18,5 @@ public abstract class Exposicion extends Island {
 
     @Override
     public abstract String toString();
-
-    public InstalacionesDeExposicion getInstalacion(int num) {
-        String aviso = null;
-        InstalacionesDeExposicion instalacion = null;
-        while (num > this.instalaciones.size() | num < 0) {
-            aviso = "NO CORRESPONDE NINGUNA INSTALACION A DICHO NUMERO";
-            num = Utilidades.leeEntero(aviso);
-        }
-        return this.instalaciones.get(num);
-    }
 
 }

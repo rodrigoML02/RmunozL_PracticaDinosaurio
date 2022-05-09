@@ -5,8 +5,10 @@
 package practica.islands;
 
 import java.util.ArrayList;
+import practica.Utilidades;
 import practica.enums.TipoIsla;
 import practica.instalaciones.Instalacion;
+import practica.instalaciones.instalacionesDeCria.InstalacionesDeCria;
 
 public abstract class Island {
 
@@ -17,5 +19,15 @@ public abstract class Island {
 
     @Override
     public abstract String toString();
+
+    public Instalacion getInstalacion(int num) {
+        String aviso = null;
+        InstalacionesDeCria instalacion = null;
+        while (num > this.instalaciones.size() | num < 0) {
+            aviso = "NO CORRESPONDE NINGUNA INSTALACION A DICHO NUMERO";
+            num = Utilidades.leeEntero(aviso);
+        }
+        return this.instalaciones.get(num);
+    }
 
 }
