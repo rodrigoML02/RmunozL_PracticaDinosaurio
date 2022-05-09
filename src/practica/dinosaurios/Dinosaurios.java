@@ -20,14 +20,13 @@ public abstract class Dinosaurios {
     public int salud;
     public int favs;
     public String mote;
-    public int precio;
     public int hambre;
 
     @Override
     public abstract String toString();
 
     public String moreInfo() {
-        return "iD=" + iD + ", medio=" + medio + ", alimentacion=" + alimentacion + ", edad=" + edad + ", edadProblematica=" + edadProblematica + ", salud=" + salud + ", favs=" + favs + "precio=" + precio + ", hambre=" + hambre + '}';
+        return "iD=" + iD + ", medio=" + medio + ", alimentacion=" + alimentacion + ", edad=" + edad + ", edadProblematica=" + edadProblematica + ", salud=" + salud + ", favs=" + favs + ", hambre=" + hambre + '}';
     }
 
 }

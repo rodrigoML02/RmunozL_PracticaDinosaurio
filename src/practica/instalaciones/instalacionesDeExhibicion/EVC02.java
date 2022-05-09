@@ -21,7 +21,6 @@ public class EVC02 extends InstalacionesDeExposicion {
         this.medio = Medio.VOLADOR;
         this.alimentacion = Alimentacion.CARNIVORO;
         this.comida = 0;
-        this.dinosaurios = null;
         this.caos = 0;
         this.hectarias = 200;
         this.capacidad = 2;

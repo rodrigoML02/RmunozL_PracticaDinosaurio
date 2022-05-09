@@ -1,6 +1,6 @@
 package practica;
 
-import java.util.ArrayList;
+import practica.islands.Island;
 
 /**
  *
@@ -8,15 +8,12 @@ import java.util.ArrayList;
  */
 public class Practica {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-
-        ArrayList<String> instalaciones = new ArrayList<>();
-        instalaciones.add("S");
-        System.out.println(instalaciones);
-
+        Island isla = null;
+        if (isla == null) {
+            System.out.print("FUNCIONA");
+        } else {
+            System.out.println("no");
+        }
     }
-
 }

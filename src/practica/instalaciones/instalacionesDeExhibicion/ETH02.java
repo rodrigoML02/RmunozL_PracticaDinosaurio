@@ -21,7 +21,6 @@ public class ETH02 extends InstalacionesDeExposicion {
         this.medio = Medio.TERRESTRE;
         this.alimentacion = Alimentacion.HERVIBORO;
         this.comida = 0;
-        this.dinosaurios = null;
         this.caos = 0;
         this.hectarias = 200;
         this.capacidad = 2;

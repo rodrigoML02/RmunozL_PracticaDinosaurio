@@ -5,6 +5,7 @@
 package practica.islands.islandTypes.islasDeExposicion;
 
 import practica.enums.NivelAdquisitivo;
+import practica.enums.TipoIsla;
 
 /**
  *
@@ -17,7 +18,7 @@ public class IslaSanDiego extends Exposicion {
         this.hectareas = 100;
         this.nivelAdquisitivo = NivelAdquisitivo.BAJO;
         this.visitantes = 2000;
-        this.instalaciones = null;
+        this.tipo = TipoIsla.EXHIBICION;
 
     }
 

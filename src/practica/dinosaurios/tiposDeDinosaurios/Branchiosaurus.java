@@ -24,7 +24,6 @@ public class Branchiosaurus extends Dinosaurios {
         this.favs = 0;
         this.mote = nombre;
         this.hambre = 100;
-        this.precio = 500;
 
     }
 
@@ -38,7 +37,6 @@ public class Branchiosaurus extends Dinosaurios {
         this.favs = 0;
         this.mote = "Branchiosaurus";
         this.hambre = 100;
-        this.precio = 500;
 
     }
 

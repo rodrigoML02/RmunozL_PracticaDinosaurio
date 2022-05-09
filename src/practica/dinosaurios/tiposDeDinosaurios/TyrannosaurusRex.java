@@ -24,7 +24,6 @@ public class TyrannosaurusRex extends Dinosaurios {
         this.favs = 0;
         this.mote = nombre;
         this.hambre = 100;
-        this.precio = 3000;
 
     }
 
@@ -38,7 +37,6 @@ public class TyrannosaurusRex extends Dinosaurios {
         this.favs = 0;
         this.mote = "TyrannosaurusRex";
         this.hambre = 100;
-        this.precio = 300;
 
     }
 

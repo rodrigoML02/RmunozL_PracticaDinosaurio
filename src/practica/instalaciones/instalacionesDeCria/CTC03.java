@@ -22,7 +22,6 @@ public class CTC03 extends InstalacionesDeCria {
         this.iD = "CT03-";
         this.alimentacion = Alimentacion.CARNIVORO;
         this.comida = 300;
-        this.dinosaurios = null;
         this.caos = 0;
         this.hectarias = 50;
         this.capacidad = 3;

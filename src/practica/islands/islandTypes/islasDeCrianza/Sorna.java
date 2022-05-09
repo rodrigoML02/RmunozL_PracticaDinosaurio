@@ -4,22 +4,19 @@
  */
 package practica.islands.islandTypes.islasDeCrianza;
 
-import java.util.ArrayList;
-import practica.instalaciones.instalacionesDeCria.InstalacionesDeCria;
-import practica.islands.Island;
+import practica.enums.TipoIsla;
 
 /**
  *
  * @author rodri
  */
-public class Sorna extends Island {
-
-    public ArrayList<InstalacionesDeCria> instalaciones = new ArrayList<>();
+public class Sorna extends Cria {
 
     public Sorna() {
         this.food = 20000;
         this.hectareas = 5000;
-        instalaciones = null;
+        this.tipo = TipoIsla.CRIA;
+
     }
 
     @Override
@@ -27,10 +24,4 @@ public class Sorna extends Island {
         return "ISLA SORNA DE CRIANZA";
     }
 
-    public void construir(InstalacionesDeCria instalaciones) {
-
-        this.instalaciones.add(instalaciones);
-        this.hectareas = this.hectareas - instalaciones.hectarias;
-
-    }
 }

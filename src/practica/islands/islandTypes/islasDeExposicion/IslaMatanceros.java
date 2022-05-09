@@ -5,6 +5,7 @@
 package practica.islands.islandTypes.islasDeExposicion;
 
 import practica.enums.NivelAdquisitivo;
+import practica.enums.TipoIsla;
 
 /**
  *
@@ -17,7 +18,7 @@ public class IslaMatanceros extends Exposicion {
         this.hectareas = 10000;
         this.nivelAdquisitivo = NivelAdquisitivo.MEDIO;
         this.visitantes = 3000;
-        this.instalaciones = null;
+        this.tipo = TipoIsla.EXHIBICION;
 
     }
 

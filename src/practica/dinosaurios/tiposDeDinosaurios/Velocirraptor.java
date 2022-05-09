@@ -24,7 +24,6 @@ public class Velocirraptor extends Dinosaurios {
         this.favs = 0;
         this.mote = nombre;
         this.hambre = 100;
-        this.precio = 600;
 
     }
 
@@ -38,7 +37,6 @@ public class Velocirraptor extends Dinosaurios {
         this.favs = 0;
         this.mote = "Velocirraptor";
         this.hambre = 100;
-        this.precio = 600;
 
     }
 

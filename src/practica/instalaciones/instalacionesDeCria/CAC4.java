@@ -22,7 +22,6 @@ public class CAC4 extends InstalacionesDeCria {
         this.iD = "CAC4-";
         this.alimentacion = Alimentacion.CARNIVORO;
         this.comida = 100;
-        this.dinosaurios = null;
         this.caos = 0;
         this.hectarias = 25;
         this.capacidad = 4;

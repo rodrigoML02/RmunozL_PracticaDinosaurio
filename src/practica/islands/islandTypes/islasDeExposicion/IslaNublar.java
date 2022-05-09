@@ -5,6 +5,7 @@
 package practica.islands.islandTypes.islasDeExposicion;
 
 import practica.enums.NivelAdquisitivo;
+import practica.enums.TipoIsla;
 
 /**
  *
@@ -17,7 +18,7 @@ public class IslaNublar extends Exposicion {
         this.hectareas = 7700;
         this.nivelAdquisitivo = NivelAdquisitivo.ALTO;
         this.visitantes = 1000;
-        this.instalaciones = null;
+        this.tipo = TipoIsla.EXHIBICION;
 
     }
 

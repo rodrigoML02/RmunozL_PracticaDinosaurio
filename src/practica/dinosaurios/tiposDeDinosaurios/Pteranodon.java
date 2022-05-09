@@ -24,7 +24,6 @@ public class Pteranodon extends Dinosaurios {
         this.favs = 0;
         this.mote = nombre;
         this.hambre = 100;
-        this.precio = 800;
 
     }
 
@@ -38,7 +37,6 @@ public class Pteranodon extends Dinosaurios {
         this.favs = 0;
         this.mote = "Pteranodon";
         this.hambre = 100;
-        this.precio = 800;
 
     }
 

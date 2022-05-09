@@ -22,7 +22,6 @@ public class CVC02 extends InstalacionesDeCria {
         this.iD = "CV02-";
         this.alimentacion = Alimentacion.CARNIVORO;
         this.comida = 500;
-        this.dinosaurios = null;
         this.caos = 0;
         this.hectarias = 100;
         this.capacidad = 2;

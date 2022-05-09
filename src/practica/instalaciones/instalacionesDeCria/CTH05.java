@@ -19,7 +19,6 @@ public class CTH05 extends InstalacionesDeCria {
         this.iD = "CT05-";
         this.alimentacion = Alimentacion.HERVIBORO;
         this.comida = 200;
-        this.dinosaurios = null;
         this.caos = 0;
         this.hectarias = 10;
         this.capacidad = 5;

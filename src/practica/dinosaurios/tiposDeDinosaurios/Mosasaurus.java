@@ -24,7 +24,6 @@ public class Mosasaurus extends Dinosaurios {
         this.favs = 0;
         this.mote = nombre;
         this.hambre = 100;
-        this.precio = 1000;
 
     }
 
@@ -38,7 +37,6 @@ public class Mosasaurus extends Dinosaurios {
         this.favs = 0;
         this.mote = "Mosasaurus";
         this.hambre = 100;
-        this.precio = 1000;
 
     }
 
